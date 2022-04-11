@@ -1,0 +1,38 @@
+.modal-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.151);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body {
+    width: 435px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}

@@ -1,0 +1,84 @@
+.rental-price-container {
+    width: 945px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px -5px 30px rgba(0, 0, 0, 0.2);
+    padding: 20px 50px;
+}
+
+.rental-title {
+    color: #444;
+}
+
+.rental-title>span {
+    color: #777;
+    font-weight: 500;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.price-title {
+    color: #555;
+    font-weight: 500;
+    margin: 0;
+    font-size: 22px;
+}
+
+.sub-title {
+    color: #555;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+}
+
+.price-input {
+    width: 98px;
+    height: 44px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #999;
+    font-size: 28px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.button {
+    margin-top: 40px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.container {
+    display: flex;
+    background-color: red;
+}
+
+.container.active {
+    display: none;
+}
